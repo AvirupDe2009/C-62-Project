@@ -1,0 +1,41 @@
+.img2 {
+    height:300px;
+    width:390px
+}
+.menu {
+    list-style: none;
+    font-family: cursive;
+    cursor: pointer;
+    position:fixed;
+    background: white;
+    width:100%;
+    margin-top: 0px;
+    top: 0px;
+    padding-left: 645px;
+    padding-right: 645px;
+    z-index: 10;
+    color: black;
+}
+.links{
+    float: left;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.links:hover {
+    font-size: 20px;
+    text-decoration: underline;
+}
+#Grids {
+  border-style: solid;
+  border-width: 2px;
+}
+.img2 {
+    padding: 10px;
+    padding-left:30px;
+}
+#img1 {
+    width:850px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Photo Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="links"><a href="#home">Home</a></li>
+        <li class="links"><a href="#Grids">Grid veiw</a></li>
+        <li class="links"><a href="#myCarousel">Slide veiw</a></li>
+    </ul>
+    <section id="home">
+        <center>
+            <div>
+                <img id="img1" src="flowers.gif">
+            </div>
+        </center>
+    </section>
+    <section id="Grids">
+        <h2 style="text-align: center">Grid Gallery</h2>
+        <br>
+        <div class="row">
+            <img class="img2" src="blue.jpg">
+            <img class="img2" src="Orange.png">
+            <img class="img2" src="Pink%20tulip.jpg">
+            <img class="img2" src="purple.jpg">
+        </div>
+        <div class="row">
+            <img class="img2" src="White.jpg">
+            <img class="img2" src="violet.jpg">
+            <img class="img2" src="Red%20rose.jpg">
+            <img class="img2" src="yellow.jpg">
+        </div>
+    </section>
+    <section>
+        <h2>Slide veiw</h2>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                            <img src="Red%20rose.jpg" class="img-responsive">
+                        <div class="carousel-content">
+                            <h3>RED ROSE</h3>
+                        </div>
+                                       <a href="#myCarousel" data-slide="prev" class="left carousel-control">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                                <a href="#myCarousel" data-slide="next" class="right carousel-control">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+    </section>
+</body>
